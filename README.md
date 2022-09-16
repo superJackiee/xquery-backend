@@ -1,6 +1,35 @@
 # xquery-dashboard-backend
 
-This is a simple express-app server for verifying the signature sent from the xquery front-end. <br/>
+This is a simple express-app server for verifying the signature sent from the xquery front-end.<br/>
+
+## Getting started
+
+Clone the repo:
+
+```bash
+git clone https://github.com/blocknetdx/xquery-dashboard-backend.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd xquery-dashboard-backend
+```
+
+Install the dependencies:
+
+```bash
+yarn
+```
+
+Start the development server:
+
+```bash
+yarn start
+```
+
+<br/>
+
 When front-end tries to create new project, a sign message comes and it makes a signature.
 
 ![image](https://user-images.githubusercontent.com/100922076/183118080-13e3c476-4f68-4ebd-81c3-1f1ae1abb33a.png)

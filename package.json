@@ -1,7 +1,7 @@
 {
-  "name": "simple-express-api",
+  "name": "xquery-express-backend",
   "version": "0.0.1",
-  "description": "A simple express API for ITPs QH19 course",
+  "description": "A simple backend for verification of metamask wallet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeyklee/simple-express-api.git"
+    "url": "https://github.com/DevSCNinja/xquery-backend.git"
   },
-  "author": "joeyklee",
+  "author": "ninjadev",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joeyklee/simple-express-api/issues"
-  },
-  "homepage": "https://github.com/joeyklee/simple-express-api#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
     "ethers": "^5.6.9",
     "express": "^4.16.4",
     "nedb": "^1.8.0"
